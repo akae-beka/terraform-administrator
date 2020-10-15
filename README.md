@@ -1,8 +1,16 @@
- # terraform
+# terraform
 
- This document contains terraform commands for daily use.
+This document contains terraform commands for daily use.
 
-Check the installed version of Terraform:
+Prints the Terraform version:
 ```
 terraform version
 ```
+
+### Terrafrom state
+
+List resources in the state:
+```
+terraform state list
+```
+
