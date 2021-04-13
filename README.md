@@ -42,18 +42,3 @@ Destroy Terraform-managed infrastructure:
 ```
 terraform destroy
 ```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
