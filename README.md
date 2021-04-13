@@ -38,7 +38,9 @@ Builds or changes infrastructure:
 terraform apply plan
 ```
 
+Destroy Terraform-managed infrastructure:
 ```
+terraform destroy
 ```
 
 ```
