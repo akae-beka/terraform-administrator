@@ -28,7 +28,7 @@ Initialize a Terraform working directory:
 terraform init
 ```
 
-Generate and show an execution plan:
+Generate and show an execution plan to apply:
 ```
 terraform plan -out plan
 ```
@@ -38,7 +38,19 @@ Builds or changes infrastructure:
 terraform apply plan
 ```
 
+Generate and show an execution plan to destroy:
+```
+terraform plan -destroy -out=destroy
+```
+
 Destroy Terraform-managed infrastructure:
 ```
-terraform destroy
+terraform apply destroy
+```
+
+### Terraform syntax
+
+Format terraform syntax:
+```
+terraform fmt -write=true -recursive
 ```
