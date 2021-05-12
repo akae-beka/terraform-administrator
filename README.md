@@ -54,3 +54,8 @@ Format terraform syntax:
 ```
 terraform fmt -write=true -recursive
 ```
+
+Validate the configuration files:
+```
+terraform validate
+```
